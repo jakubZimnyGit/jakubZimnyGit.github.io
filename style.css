@@ -20,12 +20,17 @@ span {
    color: gray;
 }
 
+.container {
+   box-shadow: 0 0 20px gray;
+   width: 980px;
+   margin: 0 auto;
+   background-color:white;
+}
 
 header,section{
    padding: 10px 60px 20px 60px;
-   background-color:white;
-   width: 960px;
-   margin: auto;
+   
+   
 }
 
 header{
@@ -83,6 +88,20 @@ header li{
    color:grey;
    line-height: 1,5;
    
+}
+.cv-downolad-link {
+   border: 2px solid cornflowerblue;
+   color: black;
+   text-decoration: none;
+   padding: 10px 20px;
+   display: inline-block;
+   margin-top: 20px;
+   border-radius: 26px;
+   transition: background-color 0.5s, color 0.5s;
+}
+.cv-downolad-link:hover {
+   color: white;
+   background-color: cornflowerblue;
 }
 
 
